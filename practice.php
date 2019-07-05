@@ -20,7 +20,7 @@ echo $hello.$name.$world;
 
 //4
 $tech_boost = "tech";
-$tech_boost .= "boost";
+$tech_boost .= " boost";
 echo $tech_boost;
 
 //5【応用】
