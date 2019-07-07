@@ -4,8 +4,9 @@
 
 //1
 $name = "aoi";
-if($name == "kimura"){
+if($name == "aoi"){
 echo "私は".$name."です";
+echo "\n";
 }else{
 echo $name."ではありません";
 echo "\n";
