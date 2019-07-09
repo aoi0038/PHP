@@ -32,10 +32,15 @@ echo "\n";
 //3 $arr という配列の仮引数を持ち、数値が入った配列array(1, 3, 5 ,7, 9) を渡すと
 //その要素をすべてかけた結果を返す関数を作成してください。
 
-$arr = array(1, 3, 5, 7, 9);
-echo array_product($arr);
-echo "\n";
+function seki($arr){
+  $result = 1;
 
+  foreach($arr as $a){
+    $result = $result * $a;
+  }
+  return $result;
+}
+echo seki(array(1, 3, 5 ,7, 9))."\n";
 
 
 //4【応用】次のプログラムは、配列の中で一番大きい値を返す 
